@@ -13,11 +13,13 @@ export default function Works() {
       id: 2,
       title: "Instagram Demo App",
       img: "https://igram.io/static/img/instagram-image.jpg",
+      link: "https://phase-2-project-gk.herokuapp.com/"
     },
     {
       id: 3,
       title: "MLB Roster & HR Search",
       img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png",
+      link: "https://jerrytc7.github.io/MLB-Roster-Home-Run-Search/"
     },
   ];
 
@@ -42,7 +44,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <a href={d.link} target="_blank" rel="noreferrer">Test out the deployed app!</a>
                 </div>
               </div>
               <div className="right">

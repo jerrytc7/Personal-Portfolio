@@ -3,16 +3,19 @@ export const featuredPortfolio = [
         id: 1,
         title: "FB Demo App",
         img: "https://www.citypng.com/public/uploads/preview/-11595350631lczyog2lld.png",
+        link: "https://github.com/jerrytc7/FBClone"
     },
     {
         id: 2,
         title: "Instagram Demo App",
         img: "https://igram.io/static/img/instagram-image.jpg",
+        link: "https://github.com/jerrytc7/InstagramClone"
     },
     {
         id: 3,
         title: "MLB Roster & HR Search",
         img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png",
+        link: "https://github.com/jerrytc7/MLB-Roster-Home-Run-Search"
     },
 ];
 
@@ -21,6 +24,7 @@ export const vanillajsPortfolio = [
         id: 1,
         title: "MLB Roster & HR Search",
         img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png",
+        link: "https://github.com/jerrytc7/MLB-Roster-Home-Run-Search"
     },
 ];
 
@@ -29,6 +33,7 @@ export const reactPortfolio = [
         id: 1,
         title: "Instagram Demo App",
         img: "https://igram.io/static/img/instagram-image.jpg",
+        link: "https://github.com/jerrytc7/InstagramClone"
     },
 ];
 
@@ -53,5 +58,6 @@ export const reactandrailsPortfolio = [
         id: 1,
         title: "FB Demo App",
         img: "https://www.citypng.com/public/uploads/preview/-11595350631lczyog2lld.png",
+        link: "https://github.com/jerrytc7/FBClone"
     },
 ];
