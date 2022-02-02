@@ -7,18 +7,21 @@ export default function Works() {
     {
       id: 1,
       title: "FB Demo App",
-      img: "https://www.citypng.com/public/uploads/preview/-11595350631lczyog2lld.png",
+      icon: "https://www.citypng.com/public/uploads/preview/-11595350631lczyog2lld.png",
+      img: "assets/fbdemopic.png",
     },
     {
       id: 2,
       title: "Instagram Demo App",
-      img: "https://igram.io/static/img/instagram-image.jpg",
+      icon: "https://igram.io/static/img/instagram-image.jpg",
+      img: "assets/igdemopic.png",
       link: "https://phase-2-project-gk.herokuapp.com/"
     },
     {
       id: 3,
       title: "MLB Roster & HR Search",
-      img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png",
+      icon: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png",
+      img: "assets/mlbdemopic.png",
       link: "https://jerrytc7.github.io/MLB-Roster-Home-Run-Search/"
     },
   ];
@@ -40,7 +43,7 @@ export default function Works() {
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.img} alt="" />
+                    <img src={d.icon} alt="" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
@@ -49,7 +52,7 @@ export default function Works() {
               </div>
               <div className="right">
                 <img
-                  src="https://support.brightervision.com/wp-content/uploads/2019/05/background-color.png"
+                  src={d.img}
                   alt=""
                 />
               </div>
